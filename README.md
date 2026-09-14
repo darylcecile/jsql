@@ -9,6 +9,16 @@ echo '[{"name":"Ada","age":36},{"name":"Lin","age":25}]' \
 # [{"name":"Ada"}]
 ```
 
+## Install with Binzo
+
+With [Binzo](https://github.com/darylcecile/binzo) installed, download the latest
+release for your platform:
+
+```sh
+binzo install darylcecile/jsql
+jsql --help
+```
+
 ## Build and run
 
 On Linux or macOS, building requires [Node.js](https://nodejs.org) 24+,
