@@ -1,0 +1,13 @@
+{
+  "ffi_format": 1,
+  "functions": [
+    {
+      "name": "runSql",
+      "symbol": "jsql_query",
+      "params": ["string", "string"],
+      "returns": "i32"
+    }
+  ],
+  "libraries": ["../dist/bridge.o", "../dist/sqlite3.o"],
+  "system_libraries": ["m", "pthread", "dl"]
+}
