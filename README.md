@@ -90,3 +90,7 @@ warmups). These binary timings include startup, piped input, and collecting outp
 
 Run `bun run bench` for startup, filtering, aggregation, sorting, and full-output
 benchmarks at 1,000 and 100,000 rows. See [CONTRIBUTING.md](CONTRIBUTING.md) for local development.
+
+## License
+
+[MIT](LICENSE) © 2026 Daryl Cecile.

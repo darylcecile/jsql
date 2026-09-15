@@ -57,7 +57,7 @@ jobs:
       - run: bun run build
       - run: bun test
       - name: Package binary
-        run: COPYFILE_DISABLE=1 tar -czf "$TARGET.tar.gz" -C dist jsql
+        run: COPYFILE_DISABLE=1 tar -czf "$TARGET.tar.gz" LICENSE -C dist jsql
       - uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.target }}
